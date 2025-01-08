@@ -10,6 +10,7 @@ public class P0242ValidAnagramTests
     [InlineData("anagram", "nagaram", true)]
     [InlineData("rat", "car", false)]
     [InlineData("a", "a", true)]
+    [InlineData("tan", "nat", true)]
     public void IsAnagram_Tests(string s, string t, bool expected)
     {
         //Act
@@ -23,6 +24,7 @@ public class P0242ValidAnagramTests
     [InlineData("anagram", "nagaram", true)]
     [InlineData("rat", "car", false)]
     [InlineData("a", "a", true)]
+    [InlineData("tan", "nat", true)]
     public void IsAnagram_InPlace_Tests(string s, string t, bool expected)
     {
         //Act
