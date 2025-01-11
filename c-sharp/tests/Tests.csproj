@@ -20,10 +20,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="P0100_0199\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\src\Solutions.csproj" />
     </ItemGroup>
 
